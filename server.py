@@ -50,6 +50,6 @@ def addrec():
 def list():
     if( request.args['x'] in dict.keys()):
        return dict[request.args['x']]
-    return "not found"
+    return "Details Not Found."
 
 app.run(debug = True)
